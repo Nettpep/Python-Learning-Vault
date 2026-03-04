@@ -11,10 +11,14 @@
             "id": "0898e6883a46cba6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "มุมมองกราฟ"
+              "type": "markdown",
+              "state": {
+                "file": "50_Automation_Shadows/API_Connections.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "API_Connections"
             }
           }
         ]
@@ -179,10 +183,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "dc419ef5c5985f6d",
+  "active": "0898e6883a46cba6",
   "lastOpenFiles": [
-    "ยังไม่ได้ตั้งชื่อ",
-    "50_Automation_Shadows/API_Connections.md",
     "50_Automation_Shadows/AI_Integration_Logs.md",
     "80_The_Archive/Code_Library.md",
     "90_Assets/Templates/Code_Review_Checklist.md",
@@ -196,6 +198,7 @@
     "40_Architect_Tools/Modules_&_Packages.md",
     "40_Architect_Tools/Function_Definitions.md",
     "40_Architect_Tools/Classes_&_Objects.md",
+    "50_Automation_Shadows/API_Connections.md",
     "90_Assets/Templates/Project_Template.md",
     "10_Universal_Laws/String_Manipulation.md",
     "10_Universal_Laws/Variables_&_Types.md",
