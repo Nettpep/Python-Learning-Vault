@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "cc258760f3f66c51",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7f4e6bb6558fa3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0898e6883a46cba6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "มุมมองกราฟ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f918c328c356a60",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4d53e80ecff140b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc419ef5c5985f6d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "File explorer"
+            }
+          },
+          {
+            "id": "952f9afa3513d4ba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "ค้นหา"
+            }
+          },
+          {
+            "id": "a417eb621d76f181",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "83dcb3b126459e0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a4dc78dd329457f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e16a6c8add436f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "แบ็คลิงค์ของ Welcome"
+            }
+          },
+          {
+            "id": "56c4cc6b70ef4a82",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "ลิงค์ขาออกของ Welcome"
+            }
+          },
+          {
+            "id": "ec1626bed670c382",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "36ed3b92ac42eef2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f24ebe1def5241da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "โครงเรื่องของ Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:เปิด quick switcher": false,
+      "graph:เปิดมุมมองกราฟ": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:เปิดโน้ตของวันนี้": false,
+      "templates:แทรกเทมเพลต": false,
+      "command-palette:เปิดกระดานคำสั่ง": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "dc419ef5c5985f6d",
+  "lastOpenFiles": [
+    "ยังไม่ได้ตั้งชื่อ",
+    "50_Automation_Shadows/API_Connections.md",
+    "50_Automation_Shadows/AI_Integration_Logs.md",
+    "80_The_Archive/Code_Library.md",
+    "90_Assets/Templates/Code_Review_Checklist.md",
+    "90_Assets/Templates/New_Note_Template.md",
+    "80_The_Archive/Bug_Fix_Logs.md",
+    "50_Automation_Shadows/File_Operations.md",
+    "10_Universal_Laws/Operators.md",
+    "30_Data_Vault/Sets_&_Collections.md",
+    "30_Data_Vault/Lists_&_Tuples.md",
+    "30_Data_Vault/Dictionaries.md",
+    "40_Architect_Tools/Modules_&_Packages.md",
+    "40_Architect_Tools/Function_Definitions.md",
+    "40_Architect_Tools/Classes_&_Objects.md",
+    "90_Assets/Templates/Project_Template.md",
+    "10_Universal_Laws/String_Manipulation.md",
+    "10_Universal_Laws/Variables_&_Types.md",
+    "20_Logic_Flow/Conditionals_If_Else.md",
+    "20_Logic_Flow/Loops_For_While.md",
+    "20_Logic_Flow/Error_Handling.md",
+    "Welcome.md",
+    "00_Central_Core/Index_MOC.md",
+    "00_Central_Core/Quick_Snippets.md",
+    "00_Central_Core",
+    "10_Universal_Laws",
+    "20_Logic_Flow",
+    "30_Data_Vault",
+    "40_Architect_Tools",
+    "50_Automation_Shadows",
+    "80_The_Archive",
+    "90_Assets/Templates",
+    "90_Assets/Images",
+    "90_Assets"
+  ]
+}
