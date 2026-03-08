@@ -43,6 +43,12 @@
 
 ---
 
+### 60_Learning_Walkthroughs (ตัวอย่างเรียนรู้พร้อม Trace)
+- 📖 [For_Loop_หาค่าสูงสุด.md](../60_Learning_Walkthroughs/For_Loop_หาค่าสูงสุด.md) - For Loop หาค่าที่มากที่สุดใน List + Trace
+- 📖 [For_Loop_สะสมค่า_Accumulator.md](../60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md) - For Loop สะสมค่า (Accumulator Pattern) + Trace
+
+---
+
 ### 80_The_Archive (หอจดหมายเหตุ)
 - 📖 [Code_Library.md](../80_The_Archive/Code_Library.md) - คลังเก็บ Scripts ที่เขียนเสร็จแล้ว
 - 🐛 [Bug_Fix_Logs.md](../80_The_Archive/Bug_Fix_Logs.md) - บันทึกการแก้ปริศนา/Error ที่เคยเจอ
