@@ -1,5 +1,7 @@
 # Loops For While - วัฏจักรและการทำซ้ำ
 
+> 📖 **ทบทวนด้วย Trace/เกร็ดความรู้:** [For หาค่าสูงสุด](../60_Learning_Walkthroughs/For_Loop_หาค่าสูงสุด.md) · [สะสมค่า Accumulator](../60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md) · [หาค่าต่ำสุด ใช้ None](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) · [While vs For อ่าน String](../60_Learning_Walkthroughs/เกร็ดความรู้_While_vs_For_อ่าน_String.md)
+
 ## 🔄 แนวคิดพื้นฐาน
 
 Loops คือ **การทำซ้ำคำสั่ง** หลายๆ ครั้ง ช่วยให้เราไม่ต้องเขียนโค้ดซ้ำๆ กันหลายบรรทัด
@@ -15,6 +17,14 @@ while count < 5:
     print(f"นับ = {count}")
     count += 1
 ```
+
+---
+
+## 📑 ในหน้านี้ (สารบัญ)
+
+- [[#🎯 For Loop]] · [[#🔄 While Loop]] · [[#🎪 Loop Control Statements]] · [[#🎨 Nested Loops]]
+- [[#🛠️ การใช้งานขั้นสูง]] · [[#📊 การประมวลผลข้อมูลจริง]] · [[#🎯 การเพิ่มประสิทธิภาพ]]
+- [[#🛡️ การจัดการ Error ใน Loops]] · [[#💡 Best Practices]] · [[#📝 สรุป Loop Patterns]] · [[#🎯 แบบฝึกหัด]]
 
 ---
 

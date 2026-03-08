@@ -121,5 +121,11 @@ for letter in fruit:
 
 ---
 
+## 📌 คำค้น
+
+`while` `for` `loop` `string` `index` `enumerate` `in` `เปรียบเทียบ` `trace`
+
+---
+
 *สร้างเมื่อ: 2026-03-08*  
 *ปรับปรุงล่าสุด: 2026-03-08*

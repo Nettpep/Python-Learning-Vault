@@ -49,6 +49,8 @@
 - 📖 [For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) - For Loop หาค่าที่น้อยที่สุด (ใช้ None เป็นตัวตั้งต้น) + Trace
 - 📖 [เกร็ดความรู้_While_vs_For_อ่าน_String.md](../60_Learning_Walkthroughs/เกร็ดความรู้_While_vs_For_อ่าน_String.md) - เกร็ดความรู้: เปรียบเทียบ While vs For อ่าน String ทีละตัว
 - 📖 [เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) - เกร็ดความรู้: สตริง — Concatenation, in, Comparison, Methods, Parsing, Py2 vs 3
+- 📖 [Parsing_ดึงค่าหลังโคลอน_เป็น_float.md](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) - Parsing: ดึงค่าตัวเลขจากข้อความหลังโคลอน (find + slice + strip + float)
+- 📖 [สรุปบทเรียน_Ch7_การจัดการไฟล์.md](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) - สรุปบทเรียน Ch7: การจัดการไฟล์ (open, handle, \n, Read/Write/Close)
 
 ---
 
@@ -61,6 +63,23 @@
 ### 90_Assets (ทรัพยากรส่วนกลาง)
 - 🖼️ [Images/](../90_Assets/Images/) - รูปภาพประกอบ/Diagram
 - 📄 [Templates/](../90_Assets/Templates/) - แม่แบบบันทึกหน้าใหม่ๆ
+
+---
+
+## 🔍 หาตามหัวข้อ / คำค้นยอดนิยม
+
+| อยากทำ / อยากหา | ไปที่ |
+|-----------------|--------|
+| **loop, for, while, วนลูป** | [Loops_For_While](../20_Logic_Flow/Loops_For_While.md) · [For หาค่าสูงสุด](../60_Learning_Walkthroughs/For_Loop_หาค่าสูงสุด.md) · [สะสมค่า Accumulator](../60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md) · [หาค่าต่ำสุด ใช้ None](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) · [While vs For อ่าน String](../60_Learning_Walkthroughs/เกร็ดความรู้_While_vs_For_อ่าน_String.md) |
+| **string, สตริง, ข้อความ** | [String_Manipulation](../10_Universal_Laws/String_Manipulation.md) · [เกร็ดความรู้สตริง สรุปหลัก](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) |
+| **parsing, ดึงข้อมูลจากข้อความ, find, slice** | [เกร็ดความรู้สตริง](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) · [Parsing ดึงค่าหลังโคลอน](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) |
+| **ไฟล์, open, read, write, file** | [File_Operations](../50_Automation_Shadows/File_Operations.md) · [สรุปบทเรียน Ch7 การจัดการไฟล์](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) |
+| **สรุปบทเรียน / คลิป / Chapter** | [สรุปบทเรียน Ch7](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) (มีเพิ่มตามคลิป) |
+| **ตัวแปร, type, ชนิดข้อมูล** | [Variables_&_Types](../10_Universal_Laws/Variables_&_Types.md) |
+| **if, เงื่อนไข, conditionals** | [Conditionals_If_Else](../20_Logic_Flow/Conditionals_If_Else.md) |
+| **list, dict, ข้อมูลเป็นชุด** | [Lists_&_Tuples](../30_Data_Vault/Lists_&_Tuples.md) · [Dictionaries](../30_Data_Vault/Dictionaries.md) |
+| **ฟังก์ชัน, function** | [Function_Definitions](../40_Architect_Tools/Function_Definitions.md) |
+| **error, exception, try except** | [Error_Handling](../20_Logic_Flow/Error_Handling.md) |
 
 ---
 
@@ -83,10 +102,18 @@
 
 ## 🔍 คำแนะนำการใช้งาน
 
-- 📝 **Quick_Snippets.md** - สำหรับคัดลอกโค้ดที่ใช้บ่อย
+- 📝 **Quick_Snippets.md** - สำหรับคัดลอกโค้ดที่ใช้บ่อย (มีคำอธิบายหนึ่งบรรทัดใต้แต่ละหัวข้อ)
 - 🗂️ **Index_MOC.md** - กลับมาที่นี่เสมอเพื่อดูแผนที่เต็ม
 - 🔄 **อัปเดตข้อมูล** - เพิ่มเนื้อหาใหม่ๆ ตามความเชี่ยวชาญ
 - 🎯 **ตั้งเป้าหมาย** - กำหนดเส้นทางการเรียนรู้ที่ชัดเจน
+
+### ✅ โฟลว์ทบทวนก่อนทำโปรเจกต์เล็กๆ
+
+| อยากทำ | ควรทบทวน |
+|--------|-----------|
+| โปรแกรมอ่าน/เขียนไฟล์ | [สรุปบทเรียน Ch7](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) (เช็คลิสต์ + ลองทำ) → [File_Operations](../50_Automation_Shadows/File_Operations.md) |
+| วนลูปหรือหาค่าสูงสุด/ต่ำสุด/สะสมค่า | [For หาค่าสูงสุด](../60_Learning_Walkthroughs/For_Loop_หาค่าสูงสุด.md) · [สะสมค่า](../60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md) · [หาค่าต่ำสุด None](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) → [Loops_For_While](../20_Logic_Flow/Loops_For_While.md) |
+| ดึงค่าจากข้อความ (parse) | [เกร็ดความรู้สตริง](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) · [Parsing หลังโคลอน](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) → [String_Manipulation](../10_Universal_Laws/String_Manipulation.md) |
 
 ---
 

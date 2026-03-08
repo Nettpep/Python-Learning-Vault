@@ -61,5 +61,11 @@ print(running_total)  # 40
 
 ---
 
+## 📌 คำค้น
+
+`for` `loop` `accumulator` `running_total` `sum` `list` `trace` `สะสมค่า`
+
+---
+
 *สร้างเมื่อ: 2026-03-08*  
 *ปรับปรุงล่าสุด: 2026-03-08*

@@ -3,6 +3,7 @@
 ## 🚀 โค้ดเริ่มต้น Python
 
 ### Basic Structure
+*ใช้เป็นโครงหลักของสคริปต์ Python (ถ้ารันโดยตรง จะเรียก main())*
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -15,6 +16,7 @@ if __name__ == "__main__":
 ```
 
 ### Import ที่ใช้บ่อย
+*คัดลอกโมดูลที่ใช้ประจำ (os, sys, json, pathlib ฯลฯ)*
 ```python
 import os
 import sys
@@ -28,18 +30,21 @@ from pathlib import Path
 ## 📁 การทำงานกับไฟล์
 
 ### อ่านไฟล์ทั้งหมด
+*อ่านทั้งไฟล์เป็นสตริงเดียว — เหมาะกับไฟล์ขนาดไม่ใหญ่*
 ```python
 with open('filename.txt', 'r', encoding='utf-8') as f:
     content = f.read()
 ```
 
 ### เขียนไฟล์
+*เขียนทับไฟล์เดิม (สร้างใหม่ถ้าไม่มี) — ระบุ encoding='utf-8' สำหรับภาษาไทย*
 ```python
 with open('filename.txt', 'w', encoding='utf-8') as f:
     f.write("Hello, World!")
 ```
 
 ### อ่านไฟล์ทีละบรรทัด
+*ประหยัดหน่วยความจำ เหมาะกับไฟล์ใหญ่ — ใช้ .strip() ตัด \\n ต่อบรรทัด*
 ```python
 with open('filename.txt', 'r', encoding='utf-8') as f:
     for line in f:
@@ -51,6 +56,7 @@ with open('filename.txt', 'r', encoding='utf-8') as f:
 ## 🌐 การทำงานกับ JSON
 
 ### อ่าน JSON
+*โหลดไฟล์ .json เป็น dict/list ใน Python*
 ```python
 import json
 
@@ -59,6 +65,7 @@ with open('data.json', 'r', encoding='utf-8') as f:
 ```
 
 ### เขียน JSON
+*บันทึก dict/list เป็นไฟล์ .json (indent, ensure_ascii=False สำหรับภาษาไทย)*
 ```python
 import json
 
@@ -72,6 +79,7 @@ with open('data.json', 'w', encoding='utf-8') as f:
 ## 🔄 การทำงานกับ List
 
 ### List Comprehension
+*สร้าง list ใหม่จาก list เดิมในหนึ่งบรรทัด (กรองหรือแปลงค่า)*
 ```python
 # สร้าง list ใหม่จาก list เดิม
 numbers = [1, 2, 3, 4, 5]
@@ -82,6 +90,7 @@ even_numbers = [x for x in numbers if x % 2 == 0]
 ```
 
 ### การวนลูปพร้อม index
+*ได้ทั้ง index และค่าในแต่ละรอบ (ไม่ต้องใช้ range(len()))*
 ```python
 for i, item in enumerate(my_list):
     print(f"Index {i}: {item}")
@@ -92,6 +101,7 @@ for i, item in enumerate(my_list):
 ## 📊 การทำงานกับ Dictionary
 
 ### สร้าง Dictionary
+*เก็บคู่ key–value (ชื่อฟิลด์กับค่า)*
 ```python
 person = {
     "name": "John",
@@ -101,12 +111,14 @@ person = {
 ```
 
 ### วนลูป Dictionary
+*ไล่ทุก key และ value พร้อมกัน*
 ```python
 for key, value in person.items():
     print(f"{key}: {value}")
 ```
 
 ### ตรวจสอบว่ามี key หรือไม่
+*ใช้ in กับ dict จะเช็ค key (ไม่เช็ค value)*
 ```python
 if "name" in person:
     print("Name exists!")

@@ -1,5 +1,7 @@
 # String Manipulation - การควบคุมตัวอักษรและข้อความ
 
+> 📖 **ทบทวนสรุป/ตัวอย่าง:** [เกร็ดความรู้ สตริง สรุปหลักสำคัญ](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) (Concatenation, in, Comparison, Methods) · [Parsing ดึงค่าหลังโคลอนเป็น float](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) (find + slice + strip)
+
 ## 📝 แนวคิดพื้นฐาน
 
 String คือ **ลำดับของตัวอักษร** (sequence of characters) ที่ใช้เก็บข้อความ ใน Python string เป็น immutable (ไม่เปลี่ยนแปลงได้)
@@ -11,6 +13,14 @@ thai_text = "สวัสดี ประเทศไทย"
 multiline = """บรรทัดที่ 1
 บรรทัดที่ 2"""
 ```
+
+---
+
+## 📑 ในหน้านี้ (สารบัญ)
+
+- [[#🎨 การสร้างและพื้นฐาน String]] · [[#🔄 การดำเนินการกับ String]] · [[#🔧 การจัดรูปแบบ String (String Formatting)]]
+- [[#🛠️ การประมวลผล String Methods]] · [[#🎯 การจัดการ Unicode และภาษาไทย]] · [[#📊 การประมวลผลขั้นสูง]]
+- [[#🎨 การสร้าง Text Templates]] · [[#🛠️ การ Debug String]] · [[#💡 Best Practices]] · [[#📝 สรุป String Methods ที่ใช้บ่อย]]
 
 ---
 
