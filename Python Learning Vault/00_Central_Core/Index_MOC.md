@@ -48,6 +48,7 @@
 - 📖 [For_Loop_สะสมค่า_Accumulator.md](../60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md) - For Loop สะสมค่า (Accumulator Pattern) + Trace
 - 📖 [For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) - For Loop หาค่าที่น้อยที่สุด (ใช้ None เป็นตัวตั้งต้น) + Trace
 - 📖 [เกร็ดความรู้_While_vs_For_อ่าน_String.md](../60_Learning_Walkthroughs/เกร็ดความรู้_While_vs_For_อ่าน_String.md) - เกร็ดความรู้: เปรียบเทียบ While vs For อ่าน String ทีละตัว
+- 📖 [เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) - เกร็ดความรู้: สตริง — Concatenation, in, Comparison, Methods, Parsing, Py2 vs 3
 
 ---
 

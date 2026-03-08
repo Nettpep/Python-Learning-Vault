@@ -14,6 +14,7 @@
 | For Loop สะสมค่า (Accumulator Pattern) | 20_Logic_Flow — Loops | [For_Loop_สะสมค่า_Accumulator.md](./For_Loop_สะสมค่า_Accumulator.md)                 |
 | For Loop หาค่าที่น้อยที่สุด (ใช้ None) | 20_Logic_Flow — Loops | [For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md](./For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) |
 | เกร็ดความรู้: While vs For อ่าน String | 20_Logic_Flow — Loops · String | [เกร็ดความรู้_While_vs_For_อ่าน_String.md](./เกร็ดความรู้_While_vs_For_อ่าน_String.md) |
+| เกร็ดความรู้: สตริง สรุปหลักสำคัญ | 10_Universal_Laws — String | [เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md](./เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) |
 
 *(เมื่อมีตัวอย่างใหม่ ให้เพิ่มแถวในตารางนี้)*
 
