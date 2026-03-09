@@ -27,6 +27,7 @@
 | หัวข้อ | หมวด | ไฟล์ |
 |--------|------|------|
 | สตริง — Concatenation, in, Comparison, Methods, Parsing, Py2 vs 3 | 10_Universal_Laws — String | [เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md](./เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) |
+| List — len, max, min, sum, Slicing [start:end] | 30_Data_Vault — Lists | [เกร็ดความรู้_List_len_max_min_sum.md](./เกร็ดความรู้_List_len_max_min_sum.md) |
 
 ---
 
