@@ -1,0 +1,73 @@
+---
+description: กติกา AI สำหรับโปรเจคสมองที่สอง Python Learning Vault
+alwaysApply: true
+---
+
+# Python Learning Vault — กติกา AI สำหรับโปรเจคสมองที่สอง
+
+โปรเจคนี้คือ **สมองที่สองสำหรับการเรียน Python** — ให้ AI เน้นสร้าง/อัพเดตไฟล์เกร็ดความรู้ในโปรเจค มากกว่าร่ายยาวในแชท
+
+---
+
+## 1. เมื่อสร้างหรืออัพเดตเกร็ดความรู้ — ต้องทำครบ 3 อย่าง
+
+1. **สร้าง/แก้ไขไฟล์เกร็ดความรู้** ใน `Python Learning Vault/60_Learning_Walkthroughs/`
+2. **อัพเดต README** — เพิ่มแถวในตารางที่ `60_Learning_Walkthroughs/README.md` ให้ตรงประเภท (Walkthrough / เกร็ดความรู้ / สรุปบทเรียน)
+3. **อัพเดต Index_MOC** — เพิ่มลิงก์ใน `00_Central_Core/Index_MOC.md` และตาราง "หาตามหัวข้อ" ถ้าเป็น concept ใหม่
+
+---
+
+## 2. รูปแบบไฟล์เกร็ดความรู้
+
+- **โฟลเดอร์:** `Python Learning Vault/60_Learning_Walkthroughs/`
+- **ชื่อไฟล์:** `เกร็ดความรู้_<หัวข้อ>.md` (เช่น `เกร็ดความรู้_Dict_count_names.md`)
+- **แม่แบบ:** `90_Assets/Templates/เกร็ดความรู้_Template.md`
+
+**โครงสร้างเนื้อหา:**
+- ส่วนหัว: ชื่อเรื่อง, หมวด, วันที่, Tags
+- `## โค้ดโจทย์` หรือ `## โค้ดตัวอย่าง`
+- `## อธิบายสั้น ๆ` หรือ `## อธิบายทีละช่วง`
+- `## สรุป Key Concepts` เป็น bullet สั้น ๆ
+- `## ลิงก์ที่เกี่ยวข้อง` — ลิงก์ไปโน้ตหลักหรือเกร็ดที่เกี่ยวข้อง
+
+**สไตล์:** ภาษาไทยเป็นหลัก แทรกโค้ด Python เป็น block เน้นแนวคิดมากกว่า syntax ยาว ๆ
+
+---
+
+## 3. ตรวจสอบก่อนสร้างไฟล์ใหม่
+
+- ถ้ามี **ไฟล์หัวข้อใกล้เคียง** อยู่แล้ว → ให้ **ต่อยอด/เพิ่ม section** ในไฟล์เดิม แทนการสร้างไฟล์ซ้ำ
+- ตัวอย่าง: ถ้ามี `เกร็ดความรู้_Dict_count_names.md` แล้ว โค้ดนับแบบ `.get()` ให้เพิ่มในไฟล์นั้นเป็น section ใหม่
+
+---
+
+## 4. พฤติกรรมในแชท
+
+- ตอบ **สั้น กระชับ** เน้นสรุป และบอกว่าได้อัพเดตไฟล์ไหนแล้ว
+- หลีกเลี่ยงการอธิบายยาวซ้ำกับที่เก็บในไฟล์
+
+---
+
+## 5. โฟกัสเนื้อหา
+
+- การอ่านไฟล์: `open`, `for line in fh`, `rstrip`, `split`
+- วนลูป: `for`, `for ... in ...`, `continue`
+- List, Dict: `append`, `in`, `not in`, `.get(key, default)`
+- String methods: `split`, `startswith`, `rstrip`, `strip`
+- Pattern: นับจำนวนซ้ำด้วย dict, กรองบรรทัดด้วย `startswith`, ดึงคำจากข้อความ
+
+---
+
+## 6. โครงสร้างโปรเจคหลัก
+
+| โฟลเดอร์ | หน้าที่ |
+|----------|---------|
+| 00_Central_Core | Index_MOC (แผนที่หลัก), Quick_Snippets |
+| 10_Universal_Laws | Variables, Operators, String |
+| 20_Logic_Flow | Conditionals, Loops, Error_Handling |
+| 30_Data_Vault | Lists, Dictionaries, Sets |
+| 40_Architect_Tools | Functions, Classes, Modules |
+| 50_Automation_Shadows | File_Operations, API, AI |
+| 60_Learning_Walkthroughs | เกร็ดความรู้, Walkthrough, สรุปบทเรียน |
+| 80_The_Archive | Code_Library, Bug_Fix_Logs |
+| 90_Assets/Templates | แม่แบบบันทึก |

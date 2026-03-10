@@ -327,5 +327,63 @@ word_count = Counter(['apple', 'banana', 'apple', 'orange'])
 
 ---
 
-*อัปเดตล่าสุด: 4 มีนาคม 2026*  
+## 🎓 Patterns สำหรับโจทย์เรียน Python (Py4e / Coursera)
+
+### นับจำนวนซ้ำด้วย dict — แบบ if-else
+*ใช้เมื่อยังไม่คุ้น `.get()` — เกร็ดความรู้: [เกร็ดความรู้_Dict_count_names](../60_Learning_Walkthroughs/เกร็ดความรู้_Dict_count_names.md)*
+```python
+counts = {}
+for item in some_list:
+    if item not in counts:
+        counts[item] = 1
+    else:
+        counts[item] += 1
+```
+
+### นับจำนวนซ้ำด้วย dict — แบบ .get() (สั้นกว่า)
+*ใช้ `.get(key, 0)` คืน 0 ถ้า key ยังไม่มี — ไม่ต้องเขียน if-else*
+```python
+counts = {}
+for word in line.split():
+    counts[word] = counts.get(word, 0) + 1
+```
+
+### อ่านไฟล์ทีละบรรทัด + กรองด้วย startswith
+*เกร็ดความรู้: [เกร็ดความรู้_mbox_From_lines](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md)*
+```python
+for line in fh:
+    line = line.rstrip()
+    if not line.startswith('From '):
+        continue
+    words = line.split()
+    print(words[1])  # คำที่ 2 เช่น email
+```
+
+### เก็บคำไม่ซ้ำจากไฟล์ (romeo pattern)
+*เกร็ดความรู้: [เกร็ดความรู้_List_len_max_min_sum](../60_Learning_Walkthroughs/เกร็ดความรู้_List_len_max_min_sum.md) (section romeo)*
+```python
+unique_words = []
+for line in fh:
+    for word in line.split():
+        if word not in unique_words:
+            unique_words.append(word)
+unique_words.sort()
+```
+
+### เปิดไฟล์ + default filename + try/except
+*ถ้าผู้ใช้กด Enter เปล่า ๆ ใช้ไฟล์ default*
+```python
+fname = input("Enter file name: ")
+if len(fname) < 1:
+    fname = "mbox-short.txt"
+try:
+    fh = open(fname)
+except:
+    print("File cannot be opened:", fname)
+    quit()
+```
+
+---
+
+*อัปเดตล่าสุด: 10 มีนาคม 2026*  
 *เพิ่มเติม snippets ที่ใช้บ่อยๆ ได้เสมอ!*

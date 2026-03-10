@@ -2,7 +2,7 @@
 
 โฟลเดอร์นี้เก็บ **ตัวอย่างการเรียนรู้** ที่มีทั้งโค้ด + Trace ทีละขั้น + วิเคราะห์เหตุผล ไว้ใช้ทบทวนเมื่อมีตัวอย่างใหม่
 
-**แม่แบบ:** [Learning_Walkthrough_Template.md](../90_Assets/Templates/Learning_Walkthrough_Template.md) · **สรุปบทเรียน:** [สรุปบทเรียน_Template.md](../90_Assets/Templates/สรุปบทเรียน_Template.md)
+**แม่แบบ:** [Learning_Walkthrough_Template.md](../90_Assets/Templates/Learning_Walkthrough_Template.md) · [เกร็ดความรู้_Template.md](../90_Assets/Templates/เกร็ดความรู้_Template.md) · **สรุปบทเรียน:** [สรุปบทเรียน_Template.md](../90_Assets/Templates/สรุปบทเรียน_Template.md)
 
 ---
 
@@ -27,7 +27,9 @@
 | หัวข้อ | หมวด | ไฟล์ |
 |--------|------|------|
 | สตริง — Concatenation, in, Comparison, Methods, Parsing, Py2 vs 3 | 10_Universal_Laws — String | [เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md](./เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) |
-| List — len, max, min, sum, Slicing [start:end] | 30_Data_Vault — Lists | [เกร็ดความรู้_List_len_max_min_sum.md](./เกร็ดความรู้_List_len_max_min_sum.md) |
+| List — len, max, min, sum, Slicing, อ่านไฟล์เก็บคำไม่ซ้ำ (romeo) | 30_Data_Vault — Lists | [เกร็ดความรู้_List_len_max_min_sum.md](./เกร็ดความรู้_List_len_max_min_sum.md) |
+| นับจำนวนซ้ำด้วย Dictionary (frequency count) | 30_Data_Vault — Dict | [เกร็ดความรู้_Dict_count_names.md](./เกร็ดความรู้_Dict_count_names.md) |
+| อ่านบรรทัด From จากไฟล์ mbox (startswith, split) | 50_Automation — File | [เกร็ดความรู้_mbox_From_lines.md](./เกร็ดความรู้_mbox_From_lines.md) |
 
 ---
 

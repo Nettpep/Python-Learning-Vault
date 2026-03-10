@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Automation_Shadows/File_Operations.md",
+                "file": "60_Learning_Walkthroughs/เกร็ดความรู้_Dict_count_names.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File_Operations"
+              "title": "เกร็ดความรู้_Dict_count_names"
             }
           }
         ]
@@ -185,8 +185,11 @@
   },
   "active": "0898e6883a46cba6",
   "lastOpenFiles": [
-    "60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md",
+    "90_Assets/Templates/เกร็ดความรู้_Template.md",
+    "60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md",
     "60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md",
+    "50_Automation_Shadows/File_Operations.md",
+    "60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md",
     "60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md",
     "60_Learning_Walkthroughs/For_Loop_หาค่าสูงสุด.md",
     "60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md",
@@ -199,8 +202,6 @@
     "00_Central_Core/Quick_Snippets.md",
     "00_Central_Core/Index_MOC.md",
     "30_Data_Vault/Lists_&_Tuples.md",
-    "50_Automation_Shadows/File_Operations.md",
-    "60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md",
     "60_Learning_Walkthroughs/README.md",
     "60_Learning_Walkthroughs/เกร็ดความรู้_While_vs_For_อ่าน_String.md",
     "90_Assets/Templates/Project_Template.md",
@@ -210,7 +211,6 @@
     "50_Automation_Shadows/API_Connections.md",
     "50_Automation_Shadows/AI_Integration_Logs.md",
     "80_The_Archive/Code_Library.md",
-    "80_The_Archive/Bug_Fix_Logs.md",
     "00_Central_Core",
     "10_Universal_Laws",
     "20_Logic_Flow",

@@ -49,6 +49,9 @@
 - 📖 [For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) - For Loop หาค่าที่น้อยที่สุด (ใช้ None เป็นตัวตั้งต้น) + Trace
 - 📖 [เกร็ดความรู้_While_vs_For_อ่าน_String.md](../60_Learning_Walkthroughs/เกร็ดความรู้_While_vs_For_อ่าน_String.md) - เกร็ดความรู้: เปรียบเทียบ While vs For อ่าน String ทีละตัว
 - 📖 [เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) - เกร็ดความรู้: สตริง — Concatenation, in, Comparison, Methods, Parsing, Py2 vs 3
+- 📖 [เกร็ดความรู้_List_len_max_min_sum.md](../60_Learning_Walkthroughs/เกร็ดความรู้_List_len_max_min_sum.md) - เกร็ดความรู้: List — len, max, min, sum, Slicing, อ่านไฟล์เก็บคำไม่ซ้ำ (romeo)
+- 📖 [เกร็ดความรู้_Dict_count_names.md](../60_Learning_Walkthroughs/เกร็ดความรู้_Dict_count_names.md) - เกร็ดความรู้: นับจำนวนซ้ำด้วย Dictionary (frequency count)
+- 📖 [เกร็ดความรู้_mbox_From_lines.md](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md) - เกร็ดความรู้: อ่านบรรทัด From จากไฟล์ mbox (startswith, split)
 - 📖 [Parsing_ดึงค่าหลังโคลอน_เป็น_float.md](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) - Parsing: ดึงค่าตัวเลขจากข้อความหลังโคลอน (find + slice + strip + float)
 - 📖 [สรุปบทเรียน_Ch7_การจัดการไฟล์.md](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) - สรุปบทเรียน Ch7: การจัดการไฟล์ (open, handle, \n, Read/Write/Close)
 
@@ -73,11 +76,11 @@
 | **loop, for, while, วนลูป** | [Loops_For_While](../20_Logic_Flow/Loops_For_While.md) · [For หาค่าสูงสุด](../60_Learning_Walkthroughs/For_Loop_หาค่าสูงสุด.md) · [สะสมค่า Accumulator](../60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md) · [หาค่าต่ำสุด ใช้ None](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) · [While vs For อ่าน String](../60_Learning_Walkthroughs/เกร็ดความรู้_While_vs_For_อ่าน_String.md) |
 | **string, สตริง, ข้อความ** | [String_Manipulation](../10_Universal_Laws/String_Manipulation.md) · [เกร็ดความรู้สตริง สรุปหลัก](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) |
 | **parsing, ดึงข้อมูลจากข้อความ, find, slice** | [เกร็ดความรู้สตริง](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) · [Parsing ดึงค่าหลังโคลอน](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) |
-| **ไฟล์, open, read, write, file** | [File_Operations](../50_Automation_Shadows/File_Operations.md) · [สรุปบทเรียน Ch7 การจัดการไฟล์](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) |
+| **ไฟล์, open, read, write, file** | [File_Operations](../50_Automation_Shadows/File_Operations.md) · [สรุปบทเรียน Ch7 การจัดการไฟล์](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) · [เกร็ดความรู้ mbox From lines](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md) |
 | **สรุปบทเรียน / คลิป / Chapter** | [สรุปบทเรียน Ch7](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) (มีเพิ่มตามคลิป) |
 | **ตัวแปร, type, ชนิดข้อมูล** | [Variables_&_Types](../10_Universal_Laws/Variables_&_Types.md) |
 | **if, เงื่อนไข, conditionals** | [Conditionals_If_Else](../20_Logic_Flow/Conditionals_If_Else.md) |
-| **list, dict, ข้อมูลเป็นชุด** | [Lists_&_Tuples](../30_Data_Vault/Lists_&_Tuples.md) · [Dictionaries](../30_Data_Vault/Dictionaries.md) |
+| **list, dict, ข้อมูลเป็นชุด** | [Lists_&_Tuples](../30_Data_Vault/Lists_&_Tuples.md) · [Dictionaries](../30_Data_Vault/Dictionaries.md) · [เกร็ดความรู้ List len/max/min/sum](../60_Learning_Walkthroughs/เกร็ดความรู้_List_len_max_min_sum.md) · [เกร็ดความรู้ นับด้วย dict](../60_Learning_Walkthroughs/เกร็ดความรู้_Dict_count_names.md) |
 | **ฟังก์ชัน, function** | [Function_Definitions](../40_Architect_Tools/Function_Definitions.md) |
 | **error, exception, try except** | [Error_Handling](../20_Logic_Flow/Error_Handling.md) |
 
@@ -111,11 +114,12 @@
 
 | อยากทำ | ควรทบทวน |
 |--------|-----------|
-| โปรแกรมอ่าน/เขียนไฟล์ | [สรุปบทเรียน Ch7](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) (เช็คลิสต์ + ลองทำ) → [File_Operations](../50_Automation_Shadows/File_Operations.md) |
+| โปรแกรมอ่าน/เขียนไฟล์ | [สรุปบทเรียน Ch7](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) (เช็คลิสต์ + ลองทำ) · [เกร็ดความรู้ mbox From](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md) → [File_Operations](../50_Automation_Shadows/File_Operations.md) |
 | วนลูปหรือหาค่าสูงสุด/ต่ำสุด/สะสมค่า | [For หาค่าสูงสุด](../60_Learning_Walkthroughs/For_Loop_หาค่าสูงสุด.md) · [สะสมค่า](../60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md) · [หาค่าต่ำสุด None](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) → [Loops_For_While](../20_Logic_Flow/Loops_For_While.md) |
+| นับจำนวนซ้ำ / frequency count | [เกร็ดความรู้ นับด้วย dict](../60_Learning_Walkthroughs/เกร็ดความรู้_Dict_count_names.md) → [Dictionaries](../30_Data_Vault/Dictionaries.md) |
 | ดึงค่าจากข้อความ (parse) | [เกร็ดความรู้สตริง](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) · [Parsing หลังโคลอน](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) → [String_Manipulation](../10_Universal_Laws/String_Manipulation.md) |
 
 ---
 
 *สร้างเมื่อ: 4 มีนาคม 2026*  
-*ปรับปรุงล่าสุด: 4 มีนาคม 2026*
+*ปรับปรุงล่าสุด: 10 มีนาคม 2026*
