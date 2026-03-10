@@ -30,6 +30,8 @@
 | List — len, max, min, sum, Slicing, อ่านไฟล์เก็บคำไม่ซ้ำ (romeo) | 30_Data_Vault — Lists | [เกร็ดความรู้_List_len_max_min_sum.md](./เกร็ดความรู้_List_len_max_min_sum.md) |
 | นับจำนวนซ้ำด้วย Dictionary (frequency count) | 30_Data_Vault — Dict | [เกร็ดความรู้_Dict_count_names.md](./เกร็ดความรู้_Dict_count_names.md) |
 | อ่านบรรทัด From จากไฟล์ mbox (startswith, split) | 50_Automation — File | [เกร็ดความรู้_mbox_From_lines.md](./เกร็ดความรู้_mbox_From_lines.md) |
+| mbox หาคนส่งอีเมลมากที่สุด (dict + max loop) — โจทย์ 9.4 | 50_Automation · Dict · Loop | [เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md](./เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md) |
+| Dict เรียงตาม value ด้วย tuple (score, name) | 30_Data_Vault — Dict | [เกร็ดความรู้_Dict_เรียงตาม_value_ด้วย_tuple.md](./เกร็ดความรู้_Dict_เรียงตาม_value_ด้วย_tuple.md) |
 
 ---
 
