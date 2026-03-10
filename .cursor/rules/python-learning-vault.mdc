@@ -62,12 +62,19 @@ alwaysApply: true
 
 | โฟลเดอร์ | หน้าที่ |
 |----------|---------|
-| 00_Central_Core | Index_MOC (แผนที่หลัก), Quick_Snippets |
+| 00_Central_Core | Index_MOC, Learning_Path, Concept_Connections, Quick_Snippets |
 | 10_Universal_Laws | Variables, Operators, String |
-| 20_Logic_Flow | Conditionals, Loops, Error_Handling |
+| 20_Logic_Flow | Conditionals, Loops, Error_Handling, Testing, Logging, Async |
 | 30_Data_Vault | Lists, Dictionaries, Sets |
 | 40_Architect_Tools | Functions, Classes, Modules |
-| 50_Automation_Shadows | File_Operations, API, AI |
+| 50_Automation_Shadows | File_Operations, API, CLI_Tools, AI |
 | 60_Learning_Walkthroughs | เกร็ดความรู้, Walkthrough, สรุปบทเรียน |
+| 65_Composite_Examples | โปรแกรมรวมที่ประกอบหลาย concept พร้อมอธิบายความเชื่อมโยง |
 | 80_The_Archive | Code_Library, Bug_Fix_Logs |
 | 90_Assets/Templates | แม่แบบบันทึก |
+
+## 7. เมื่อเพิ่มเนื้อหาใหม่ที่สำคัญ
+
+- อัพเดต **Learning_Path.md** ถ้าเป็นหัวข้อในเส้นทางเรียน
+- อัพเดต **Concept_Connections.md** ถ้าเป็น concept ที่เชื่อมกับหัวข้ออื่น
+- พิจารณาสร้าง **Composite Example** ใน 65_Composite_Examples เมื่อมีโปรแกรมที่รวมหลาย concept

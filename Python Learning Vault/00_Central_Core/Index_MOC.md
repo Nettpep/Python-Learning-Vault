@@ -4,6 +4,8 @@
 
 ### 00_Central_Core (ศูนย์บัญชาการ)
 - 📋 [Index_MOC.md](./Index_MOC.md) - แผนที่รวมเนื้อหาทั้งหมด (คุณอยู่ที่นี่)
+- 🛤️ [Learning_Path.md](./Learning_Path.md) - เส้นทางเรียนพื้นฐาน → กลาง → สูง
+- 🗺️ [Concept_Connections.md](./Concept_Connections.md) - แผนที่ความเชื่อมโยงองค์ความรู้
 - ⚡ [Quick_Snippets.md](./Quick_Snippets.md) - รวมโค้ดที่ต้องก๊อปปี้ไปใช้วันละหลายรอบ
 
 ---
@@ -19,6 +21,9 @@
 - 🔀 [Conditionals_If_Else.md](../20_Logic_Flow/Conditionals_If_Else.md) - ทางเลือกของโลก
 - 🔄 [Loops_For_While.md](../20_Logic_Flow/Loops_For_While.md) - วัฏจักรและการทำซ้ำ
 - 🛡️ [Error_Handling.md](../20_Logic_Flow/Error_Handling.md) - การรับมือกับสิ่งที่ไม่คาดฝัน/Exception
+- 🧪 [Testing_&_TDD.md](../20_Logic_Flow/Testing_&_TDD.md) - การทดสอบและ TDD (unittest, pytest)
+- 📝 [Logging_&_Debugging.md](../20_Logic_Flow/Logging_&_Debugging.md) - Logging และ Debugging
+- ⚡ [Async_Programming.md](../20_Logic_Flow/Async_Programming.md) - Async / asyncio (ขั้นสูง)
 
 ---
 
@@ -39,6 +44,7 @@
 ### 50_Automation_Shadows (ระบบอัตโนมัติและ AI)
 - 📁 [File_Operations.md](../50_Automation_Shadows/File_Operations.md) - การอ่าน-เขียนโลกภายนอก
 - 🌐 [API_Connections.md](../50_Automation_Shadows/API_Connections.md) - การเชื่อมต่อกับระบบอื่น
+- ⌨️ [CLI_Tools.md](../50_Automation_Shadows/CLI_Tools.md) - สร้างโปรแกรม Command Line (argparse, click)
 - 🤖 [AI_Integration_Logs.md](../50_Automation_Shadows/AI_Integration_Logs.md) - บันทึกการใช้ AI และ Prompt Engineering
 
 ---
@@ -54,6 +60,12 @@
 - 📖 [เกร็ดความรู้_mbox_From_lines.md](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md) - เกร็ดความรู้: อ่านบรรทัด From จากไฟล์ mbox (startswith, split)
 - 📖 [Parsing_ดึงค่าหลังโคลอน_เป็น_float.md](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) - Parsing: ดึงค่าตัวเลขจากข้อความหลังโคลอน (find + slice + strip + float)
 - 📖 [สรุปบทเรียน_Ch7_การจัดการไฟล์.md](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) - สรุปบทเรียน Ch7: การจัดการไฟล์ (open, handle, \n, Read/Write/Close)
+
+---
+
+### 65_Composite_Examples (โปรแกรมรวมประกอบองค์ความรู้)
+- 🧩 [Composite_อ่านไฟล์นับคำสร้างรายงาน.md](../65_Composite_Examples/Composite_อ่านไฟล์นับคำสร้างรายงาน.md) - อ่านไฟล์ → นับคำ → สร้าง report → เขียนไฟล์
+- 🧩 [Composite_Parse_Log_สรุปสถิติ.md](../65_Composite_Examples/Composite_Parse_Log_สรุปสถิติ.md) - Parse log → สรุปสถิติ → เขียน JSON
 
 ---
 
@@ -83,6 +95,10 @@
 | **list, dict, ข้อมูลเป็นชุด** | [Lists_&_Tuples](../30_Data_Vault/Lists_&_Tuples.md) · [Dictionaries](../30_Data_Vault/Dictionaries.md) · [เกร็ดความรู้ List len/max/min/sum](../60_Learning_Walkthroughs/เกร็ดความรู้_List_len_max_min_sum.md) · [เกร็ดความรู้ นับด้วย dict](../60_Learning_Walkthroughs/เกร็ดความรู้_Dict_count_names.md) |
 | **ฟังก์ชัน, function** | [Function_Definitions](../40_Architect_Tools/Function_Definitions.md) |
 | **error, exception, try except** | [Error_Handling](../20_Logic_Flow/Error_Handling.md) |
+| **โปรแกรมรวม / ประกอบ concept** | [Concept_Connections](./Concept_Connections.md) · [65_Composite_Examples](../65_Composite_Examples/README.md) |
+| **testing, pytest, unittest** | [Testing_&_TDD](../20_Logic_Flow/Testing_&_TDD.md) |
+| **async, asyncio** | [Async_Programming](../20_Logic_Flow/Async_Programming.md) |
+| **CLI, argparse** | [CLI_Tools](../50_Automation_Shadows/CLI_Tools.md) |
 
 ---
 
@@ -122,4 +138,5 @@
 ---
 
 *สร้างเมื่อ: 4 มีนาคม 2026*  
-*ปรับปรุงล่าสุด: 10 มีนาคม 2026*
+*ปรับปรุงล่าสุด: 10 มีนาคม 2026*  
+*เพิ่ม: Learning_Path, Concept_Connections, 65_Composite_Examples, Testing, Logging, Async, CLI*
