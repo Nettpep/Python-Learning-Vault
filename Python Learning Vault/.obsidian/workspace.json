@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "60_Learning_Walkthroughs/เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md",
+                "file": "60_Learning_Walkthroughs/เกร็ดความรู้_mbox_กระจายตามชั่วโมง.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "เกร็ดความรู้_mbox_หาคนส่งมากที่สุด"
+              "title": "เกร็ดความรู้_mbox_กระจายตามชั่วโมง"
             }
           }
         ]
@@ -185,6 +185,9 @@
   },
   "active": "0898e6883a46cba6",
   "lastOpenFiles": [
+    "30_Data_Vault/Dictionaries.md",
+    "60_Learning_Walkthroughs/เกร็ดความรู้_mbox_กระจายตามชั่วโมง.md",
+    "60_Learning_Walkthroughs/เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md",
     "60_Learning_Walkthroughs/เกร็ดความรู้_Dict_เรียงตาม_value_ด้วย_tuple.md",
     "60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md",
     "90_Assets/Templates/Project_Template.md",
@@ -207,10 +210,7 @@
     "40_Architect_Tools/Classes_&_Objects.md",
     "30_Data_Vault/Sets_&_Collections.md",
     "30_Data_Vault/Lists_&_Tuples.md",
-    "30_Data_Vault/Dictionaries.md",
     "20_Logic_Flow/Testing_&_TDD.md",
-    "20_Logic_Flow/Loops_For_While.md",
-    "20_Logic_Flow/Logging_&_Debugging.md",
     "65_Composite_Examples",
     "00_Central_Core",
     "10_Universal_Laws",

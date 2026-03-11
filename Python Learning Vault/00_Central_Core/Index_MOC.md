@@ -60,6 +60,7 @@
 - 📖 [เกร็ดความรู้_mbox_From_lines.md](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md) - เกร็ดความรู้: อ่านบรรทัด From จากไฟล์ mbox (startswith, split)
 - 📖 [เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md) - เกร็ดความรู้: mbox หาคนส่งอีเมลมากที่สุด — โจทย์ 9.4 (dict + max loop)
 - 📖 [เกร็ดความรู้_Dict_เรียงตาม_value_ด้วย_tuple.md](../60_Learning_Walkthroughs/เกร็ดความรู้_Dict_เรียงตาม_value_ด้วย_tuple.md) - เกร็ดความรู้: Dict เรียงตาม value ด้วย tuple (score, name)
+- 📖 [เกร็ดความรู้_mbox_กระจายตามชั่วโมง.md](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_กระจายตามชั่วโมง.md) - เกร็ดความรู้: mbox กระจายจำนวนอีเมลตามชั่วโมง — โจทย์ 10.2 (split โคลอน)
 - 📖 [Parsing_ดึงค่าหลังโคลอน_เป็น_float.md](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) - Parsing: ดึงค่าตัวเลขจากข้อความหลังโคลอน (find + slice + strip + float)
 - 📖 [สรุปบทเรียน_Ch7_การจัดการไฟล์.md](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) - สรุปบทเรียน Ch7: การจัดการไฟล์ (open, handle, \n, Read/Write/Close)
 
@@ -89,8 +90,8 @@
 |-----------------|--------|
 | **loop, for, while, วนลูป** | [Loops_For_While](../20_Logic_Flow/Loops_For_While.md) · [For หาค่าสูงสุด](../60_Learning_Walkthroughs/For_Loop_หาค่าสูงสุด.md) · [สะสมค่า Accumulator](../60_Learning_Walkthroughs/For_Loop_สะสมค่า_Accumulator.md) · [หาค่าต่ำสุด ใช้ None](../60_Learning_Walkthroughs/For_Loop_หาค่าที่น้อยที่สุด_ใช้_None.md) · [While vs For อ่าน String](../60_Learning_Walkthroughs/เกร็ดความรู้_While_vs_For_อ่าน_String.md) |
 | **string, สตริง, ข้อความ** | [String_Manipulation](../10_Universal_Laws/String_Manipulation.md) · [เกร็ดความรู้สตริง สรุปหลัก](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) |
-| **parsing, ดึงข้อมูลจากข้อความ, find, slice** | [เกร็ดความรู้สตริง](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) · [Parsing ดึงค่าหลังโคลอน](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) |
-| **ไฟล์, open, read, write, file** | [File_Operations](../50_Automation_Shadows/File_Operations.md) · [สรุปบทเรียน Ch7 การจัดการไฟล์](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) · [เกร็ดความรู้ mbox From lines](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md) · [mbox หาคนส่งมากที่สุด](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md) |
+| **parsing, ดึงข้อมูลจากข้อความ, find, slice, split โคลอน** | [เกร็ดความรู้สตริง](../60_Learning_Walkthroughs/เกร็ดความรู้_สตริง_สรุปหลักสำคัญ.md) · [Parsing ดึงค่าหลังโคลอน](../60_Learning_Walkthroughs/Parsing_ดึงค่าหลังโคลอน_เป็น_float.md) · [mbox กระจายตามชั่วโมง](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_กระจายตามชั่วโมง.md) |
+| **ไฟล์, open, read, write, file** | [File_Operations](../50_Automation_Shadows/File_Operations.md) · [สรุปบทเรียน Ch7 การจัดการไฟล์](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) · [เกร็ดความรู้ mbox From lines](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_From_lines.md) · [mbox หาคนส่งมากที่สุด](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md) · [mbox กระจายตามชั่วโมง](../60_Learning_Walkthroughs/เกร็ดความรู้_mbox_กระจายตามชั่วโมง.md) |
 | **สรุปบทเรียน / คลิป / Chapter** | [สรุปบทเรียน Ch7](../60_Learning_Walkthroughs/สรุปบทเรียน_Ch7_การจัดการไฟล์.md) (มีเพิ่มตามคลิป) |
 | **ตัวแปร, type, ชนิดข้อมูล** | [Variables_&_Types](../10_Universal_Laws/Variables_&_Types.md) |
 | **if, เงื่อนไข, conditionals** | [Conditionals_If_Else](../20_Logic_Flow/Conditionals_If_Else.md) |

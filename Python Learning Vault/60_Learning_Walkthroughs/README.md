@@ -32,6 +32,7 @@
 | อ่านบรรทัด From จากไฟล์ mbox (startswith, split) | 50_Automation — File | [เกร็ดความรู้_mbox_From_lines.md](./เกร็ดความรู้_mbox_From_lines.md) |
 | mbox หาคนส่งอีเมลมากที่สุด (dict + max loop) — โจทย์ 9.4 | 50_Automation · Dict · Loop | [เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md](./เกร็ดความรู้_mbox_หาคนส่งมากที่สุด.md) |
 | Dict เรียงตาม value ด้วย tuple (score, name) | 30_Data_Vault — Dict | [เกร็ดความรู้_Dict_เรียงตาม_value_ด้วย_tuple.md](./เกร็ดความรู้_Dict_เรียงตาม_value_ด้วย_tuple.md) |
+| mbox กระจายจำนวนอีเมลตามชั่วโมง (split โคลอน) — โจทย์ 10.2 | File · Dict · Parsing | [เกร็ดความรู้_mbox_กระจายตามชั่วโมง.md](./เกร็ดความรู้_mbox_กระจายตามชั่วโมง.md) |
 
 ---
 
